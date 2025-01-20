@@ -1,8 +1,68 @@
-We will get started using Docusaurus's quick start command: npx create-docusaurus@latest my-website classic
+### Pre-requisites:
+- Node.js
+- vscode preferred if you want to follow along
 
-You will be promoted to proceed: type 'y' to continue
+### Getting Started with Docusaurus
 
-You will then be prompted to use either JavaScript or TypeScript, choose either (I will use TypeScript)
-    use the arrow keys to make your selection
+Open up the terminal within vscode
 
-Give it time to build your site template
+We will begin by using Docusaurus's quick start command:  
+
+```bash
+npx create-docusaurus@latest my-website classic
+```
+
+1. **Proceed**: When prompted, type `y` to continue.  
+2. **Choose Language**: You will be asked to use either JavaScript or TypeScript.  
+   Use the arrow keys to make your selection. (I will use **TypeScript**.)
+
+---
+
+### Building the Site Template
+
+Once you've made your selection, give it some time to build your site template.
+
+---
+
+### Working in the `./blog` Folder
+
+By default, the `./blog` folder contains a few example blog posts to help you get started.  
+You can customize or add your own posts to build your blog content.
+
+---
+
+### Markdown Reference guide:
+
+## Headings
+```md
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
+
+## Text Formatting
+```md
+**The quick brown fox jumps over the lazy dog.**
+__The quick brown fox jumps over the lazy dog.__
+<strong>The quick brown fox jumps over the lazy dog.</strong>
+**_The quick brown fox jumps over the lazy dog._**
+<strong><em>The quick brown fox jumps over the lazy dog.</em></strong>
+~~The quick brown fox jumps over the lazy dog.~~
+```
+
+## Links and Images
+```md
+[Google](https://www.google.com)
+![Alt text](https://via.placeholder.com/150)
+```
+
+## Tables
+```md
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1    | Data     | More     |
+| Row 2    | Data     | More     |
+```
