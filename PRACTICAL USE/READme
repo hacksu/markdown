@@ -1,0 +1,8 @@
+We will get started using Docusaurus's quick start command: npx create-docusaurus@latest my-website classic
+
+You will be promoted to proceed: type 'y' to continue
+
+You will then be prompted to use either JavaScript or TypeScript, choose either (I will use TypeScript)
+    use the arrow keys to make your selection
+
+Give it time to build your site template
