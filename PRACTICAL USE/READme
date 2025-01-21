@@ -29,8 +29,35 @@ Once you've made your selection, give it some time to build your site template.
 By default, the `./blog` folder contains a few example blog posts to help you get started.  
 You can customize or add your own posts to build your blog content.
 
+This is where our lesson will work within
 ---
 
+### Viewing the markdown wiki/blog as a webpage
+
+When you are done editing, run these commands in terminal to start a local server:
+
+```bash
+cd .\my-website\
+npm start
+```
+
+It will automatically open your browser as it builds the sever
+
+Once it is build, navigate to your blog page, 
+Here you will see all of the markdown files compiled as a web friendly blog
+
+To close the server use 'Ctrl + C' and type 'y'
+
+### Other practical examples:
+
+Github uses markdown all the time - your READme file is primarily formatted using markdown
+- It can get pretty crazy: [example](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+
+Note Taking Apps commonly support markdown
+- Best example is Obsidian - [download here](https://obsidian.md/download)
+   - In fact, the code of this app is ~70-80% written in Markdown (mainly for UI stuff)
+
+---
 ### Markdown Reference guide:
 
 ## Headings
