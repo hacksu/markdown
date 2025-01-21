@@ -24,6 +24,13 @@ Once you've made your selection, give it some time to build your site template.
 
 ---
 
+### For the Lesson, use the automatically created sandbox
+
+Please use the sandbox I have already created for the In-person side of the Lesson
+[Click Here](https://codesandbox.io/p/devbox/priceless-dew-t8j3dt?workspaceId=ws_S4EegmuMtqu3jPpjvArW38)
+
+*You must sign in* and then fork the box to *be able to edit*
+
 ### Working in the `./blog` Folder
 
 By default, the `./blog` folder contains a few example blog posts to help you get started.  
